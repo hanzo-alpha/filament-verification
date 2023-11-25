@@ -1,6 +1,6 @@
 <?php
 
-namespace Hanzo-alpha\FilamentVerification\Database\Factories;
+namespace HanzoAlpha\FilamentVerification\Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 

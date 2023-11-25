@@ -22,6 +22,7 @@
         "illuminate/contracts": "^9.0"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-latest",
         "laravel/pint": "^1.0",
         "nunomaduro/collision": "^6.0",
         "orchestra/testbench": "^7.0",
@@ -34,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Hanzo-alpha\\FilamentVerification\\": "src",
-            "Hanzo-alpha\\FilamentVerification\\Database\\Factories\\": "database/factories"
+            "HanzoAlpha\\FilamentVerification\\": "src",
+            "HanzoAlpha\\FilamentVerification\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Hanzo-alpha\\FilamentVerification\\Tests\\": "tests"
+            "HanzoAlpha\\FilamentVerification\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -62,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Hanzo-alpha\\FilamentVerification\\FilamentVerificationServiceProvider"
+                "HanzoAlpha\\FilamentVerification\\FilamentVerificationServiceProvider"
             ],
             "aliases": {
-                "FilamentVerification": "Hanzo-alpha\\FilamentVerification\\Facades\\FilamentVerification"
+                "FilamentVerification": "HanzoAlpha\\FilamentVerification\\Facades\\FilamentVerification"
             }
         }
     },

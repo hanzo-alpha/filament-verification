@@ -1,6 +1,6 @@
 <?php
 
-namespace Hanzo-alpha\FilamentVerification;
+namespace HanzoAlpha\FilamentVerification;
 
 use Filament\PluginServiceProvider;
 use Spatie\LaravelPackageTools\Package;
